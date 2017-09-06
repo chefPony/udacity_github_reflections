@@ -9,3 +9,6 @@ The staging area is in between the directory and the repository, files from the 
 become tracked in the repository. It enables flexibility to choose which files I want to track in the repository and which want I don't want to. In addition I could
 decide to start tracking different files during different commits, the staging area
 also enables to do that.
+
+How can you use the staging area to make sure you have one commit per logical change?
+The staging area enables to commit a subset of the files or changes that have been made to the working directory, one can use this feature to have a one to one commit logical change relationship. For example by staging all the changes that refer to the same goal/logical change but leaving out the others which don't, one can then proceed an commit and achive this goal. If there was not staging area, each change to the code from the last commit would be commited indiscriminately not allowing for discard what I don't want adn increasing the likelihood of mixing up different logical changes.
