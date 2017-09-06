@@ -12,3 +12,6 @@ also enables to do that.
 
 How can you use the staging area to make sure you have one commit per logical change?
 The staging area enables to commit a subset of the files or changes that have been made to the working directory, one can use this feature to have a one to one commit logical change relationship. For example by staging all the changes that refer to the same goal/logical change but leaving out the others which don't, one can then proceed an commit and achive this goal. If there was not staging area, each change to the code from the last commit would be commited indiscriminately not allowing for discard what I don't want adn increasing the likelihood of mixing up different logical changes.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When I want to try something that is experimental or of which I am not sure of. Or when there is an alternative way of doing something and I want to try and testing it without modifying my stable version. Branch allows to keep all of these separated and to move from one to another without worrying to modify a version I don't intend to. Moreover since I can give names to branches it's easier to keep track of what's in a particular branch so they can be navigated more easily.
