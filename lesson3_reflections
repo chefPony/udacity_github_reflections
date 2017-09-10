@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+For example when I collaborate or share with other people it is much easier with a remote repository where each person can download 
+or clone the repository, or push changes that I have been made. Without a remote one should exchange files manually also increasing the 
+chances of errors. Using a remote makes sense also from security perspective: having important files in local it's dangerous if one loses
+them; with a remote this cannot happen easily
