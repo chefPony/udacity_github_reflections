@@ -15,3 +15,12 @@ The staging area enables to commit a subset of the files or changes that have be
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 When I want to try something that is experimental or of which I am not sure of. Or when there is an alternative way of doing something and I want to try and testing it without modifying my stable version. Branch allows to keep all of these separated and to move from one to another without worrying to modify a version I don't intend to. Moreover since I can give names to branches it's easier to keep track of what's in a particular branch so they can be navigated more easily.
+
+How do the diagrams help you visualize the branch structure?
+I can visualize all the branches and which commit they have in common with other branches. I can also get an idea of what I would see for any git log. In addition can visualize the hierarchical structure of the project seeing which branches directly branch from master which ones are branch of branches and so on.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result is a commit where the lines from the tip of the branches are added together, if they were added in at least one branch and not removed from the other. Moreover the branch now as only one tip and all the commit history of both branches is visible by the merged commit. We represent in the diagram because of the child parent relationship between commits, the graph we draw represents the hieraechy relationship between commits.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Always doing merging manually can be annoying and a waste of time if there are no conflicts or ambiguity, on the other hand it leaves less control and more merging goes unchecked than if it were done manually
